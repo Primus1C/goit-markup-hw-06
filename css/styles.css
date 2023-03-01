@@ -646,6 +646,11 @@ ul {
     margin-bottom: 8px;
 }
 
+.form-input-area {
+    height: 120px;
+    resize: none;
+}
+
 .contact-form {
     
 }
