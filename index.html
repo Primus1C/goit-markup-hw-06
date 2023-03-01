@@ -425,6 +425,15 @@
           </ul>
         </div>
       </div>
+
+      <div class="subscribe">
+        <form name="subscribe-form" autocomplete="off" novalidate>
+          <div class="form-f">
+            <label for="subscribe-mail" class="footer-title">Subscribe</label>
+            <input id="subscribe-mail" type="text" name="subscribe-mail" />
+          </div>
+        </form>
+      </div>
     </footer>
 
     <div class="backdrop is-hidden" data-modal>
@@ -439,23 +448,34 @@
 
         <form name="contact-form" autocomplete="off" novalidate>
           <div class="form-field">
-            <label for="user-name">Name</label>
-            <input id="user-name" type="text" name="user-name" autofocus />
+            <label class="form-label" for="user-name">Name</label>
+            <input class="form-input" id="user-name" type="text" name="user-name" autofocus />
           </div>
 
           <div class="form-field">
-            <label for="user-phone">Phone</label>
-            <input id="user-phonee" type="tel" name="user-phone" />
-          </div>
-
-          <div class="form-field">
-            <label for="user-mail">Email</label>
-            <input id="user-mail" type="text" name="user-mail" />
-          </div>
-
-          <div class="form-field">
-            <label for="user-area">Comment</label>
+            <label class="form-label" for="user-phone">Phone</label>
             <input
+              class="form-input"
+              id="user-phonee"
+              type="tel"
+              name="user-phone"
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="user-mail">Email</label>
+            <input
+              class="form-input"
+              id="user-mail"
+              type="text"
+              name="user-mail"
+            />
+          </div>
+
+          <div class="form-field">
+            <label class="form-label" for="user-area">Comment</label>
+            <input
+              class="form-input"
               id="user-area"
               type="area"
               name="user-area"
@@ -464,10 +484,15 @@
           </div>
 
           <div class="form-field">
-            <label for="user-accept"
+            <label class="form-label" for="user-accept"
               >I accept the terms and conditions of the Privacy Policy</label
             >
-            <input id="user-accept" type="checkbox" name="user-accept" />
+            <input
+              class="form-input"
+              id="user-accept"
+              type="checkbox"
+              name="user-accept"
+            />
           </div>
         </form>
       </div>
