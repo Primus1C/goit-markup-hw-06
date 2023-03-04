@@ -650,9 +650,10 @@ ul {
 }
 
 .form-input {
+    /*position: relative;*/
     width: 100%;
     border: 1px solid rgba(33, 33, 33, 0.2);
-        border-radius: 4px;
+    border-radius: 4px;
     margin-bottom: 8px;
 }
 
@@ -667,4 +668,17 @@ ul {
 
 .form-field {
     width: 100%;
+}
+
+.form-icon {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 50%;
+    left: 19px;
+    transform: translate(-50%, -50%);
+}
+
+.field-span {
+    position: relative;
 }
