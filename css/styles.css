@@ -597,9 +597,7 @@ ul {
     
     display: flex;
     flex-direction: column;
-    padding-top: 72px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 72px 24px 24px 24px;
 }
 
 .button-close {
@@ -655,6 +653,7 @@ ul {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     margin-bottom: 8px;
+    padding-left: 38px;
 }
 
 .form-input-area {
