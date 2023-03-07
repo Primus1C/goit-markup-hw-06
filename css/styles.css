@@ -673,6 +673,7 @@ ul {
     line-height: 1.5;
     text-align: center;
     color: var(--color-dark);
+    margin-bottom: 16px;
 }
 
 .form-field-title {
@@ -682,13 +683,13 @@ ul {
 }
 
 .form-field {
-     color: var(--color-border-light);
+    color: var(--color-border-light);
+    margin-bottom: 8px;
 }
 
 .form-field-wrapper{
     position: relative;
     margin-top: 4px;
-    margin-bottom: 8px;
 }
 
 .form-input:focus-within {
