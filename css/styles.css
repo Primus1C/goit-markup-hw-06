@@ -221,6 +221,7 @@ ul {
 .button {
     width: 169px;
     padding: 16px 32px;
+    margin: auto;
     font-family: inherit;
     font-weight: 500;
     line-height: 1.5;
@@ -610,7 +611,6 @@ ul {
 .modal {
     position: absolute;
     width: 408px;
-    height: 576px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -668,10 +668,15 @@ ul {
     color: var(--color-dark);
 }
 
-.form-label {
-    display: block;
+.form-field-title {
     font-size: 12px;
-    margin-bottom: 4px;
+    font-weight: 400;
+    color: var(--color-border-light);
+}
+
+.form-field {
+    position: relative;
+    /*font-size: 12px;*/
     color: var(--color-border-light);
 }
 
@@ -684,13 +689,14 @@ ul {
     fill: var(--pressed-state);
 }
 
-
 .form-input {
     width: 100%;
     height: 40px;
+    font-size: 14px;
     color: var(--color-input);
     border: 1px solid var(--color-input);
     border-radius: 4px;
+    margin-top: 4px;
     margin-bottom: 8px;
     padding-left: 38px;
 }
@@ -715,6 +721,7 @@ ul {
     display: flex;
     align-items: center;
     margin-bottom: 24px;
+    font-size: 12px;
 }
 
 .form-label-checkbox::before{
@@ -728,9 +735,9 @@ ul {
     content: '';
 }
 
-.form-field {
+/*.form-field {
     width: 100%;
-}
+}*/
 
 .form-icon {
     position: absolute;
@@ -739,10 +746,6 @@ ul {
     top: 50%;
     left: 19px;
     transform: translate(-50%, -50%);
-}
-
-.field-span {
-    position: relative;
 }
 
 .button-subscribe {
