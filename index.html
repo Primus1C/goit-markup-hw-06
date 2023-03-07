@@ -427,22 +427,20 @@
 
         <div>
           <p class="footer-title">Subscribe</p>
-          <form name="form-subscribe" autocomplete="off" novalidate>
-            <div class="footer-container"> 
-              <input
-                class="subscribe-input"
-                id="subscribe-mail"
-                type="email"
-                name="subscribe-mail"
-                placeholder="E-mail"
-              />
-              <button class="button button-subscribe">
-                Subscribe
-                <svg class="subscribe-icon">
-                  <use href="./images/icons.svg#telegram"></use>
-                </svg>
-              </button>
-             </div> 
+          <form class="form-subscribe" name="form-subscribe" autocomplete="off">
+            <input
+              class="subscribe-input"
+              id="subscribe-mail"
+              type="email"
+              name="subscribe-mail"
+              placeholder="E-mail"
+            />
+            <button class="button button-subscribe">
+              Subscribe
+              <svg class="subscribe-icon">
+                <use href="./images/icons.svg#telegram"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>
@@ -461,6 +459,7 @@
           
           <label class="form-field">
             <span class="form-field-title">Name</span>
+            <div class="form-field-wrapper">
             <svg class="form-icon">
               <use href="./images/icons.svg#person"></use>
             </svg>
@@ -470,10 +469,12 @@
               name="user-name"
               autofocus
             />
+            </div>
           </label>
 
           <label class="form-field">
             <span class="form-field-title">Phone</span>
+            <div class="form-field-wrapper">
             <svg class="form-icon">
               <use href="./images/icons.svg#phone"></use>
             </svg>
@@ -482,18 +483,21 @@
               type="tel"
               name="user-phone"
             />
+            </div>
           </label>
 
           <label class="form-field">
             <span class="form-field-title">Email</span>
+            <div class="form-field-wrapper">
             <svg class="form-icon">
               <use href="./images/icons.svg#envelope"></use>
             </svg>
             <input
               class="form-input"
-              type="text"
+              type="email"
               name="user-mail"
             />
+            </div>
           </label>
 
           <label class="form-field">
